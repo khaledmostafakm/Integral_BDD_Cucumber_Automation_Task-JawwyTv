@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="2" failures="2" name="TestSuite" time="21.354" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\bin"/>
+    <property name="java.vm.version" value="25.211-b12"/>
+    <property name="user.country.format" value="AE"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\Java Work Space 15-07-2019\Khaled_Mostafa_Intigral_QA_Automation_Assessment_June2019"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\Java Work Space 15-07-2019\Khaled_Mostafa_Intigral_QA_Automation_Assessment_June2019"/>
+    <property name="java.runtime.version" value="1.8.0_211-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\KHALED~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="classworlds.conf" value="E:\Java Work Space 15-07-2019\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4669393964768311487.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1256"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_211\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_211/bin/server;C:/Program Files/Java/jre1.8.0_211/bin;C:/Program Files/Java/jre1.8.0_211/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;E:\QC\AppiumTutorials\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\Khaled2021"/>
+    <property name="user.timezone" value="Africa/Cairo"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1256"/>
+    <property name="user.name" value="Khaled2021"/>
+    <property name="java.class.path" value="E:\QC\AppiumTutorials\eclipse\plugins\org.eclipse.m2e.maven.runtime_1.11.0.20190220-2117\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_211\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="user.language.format" value="ar"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_211"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_211\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="E:\Java Work Space 15-07-2019\Khaled_Mostafa_Intigral_QA_Automation_Assessment_June2019\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="runner.TestRunner" name="feature" time="21.268">
+    <failure message="org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (604, 597)
+  (Session info: chrome=75.0.3770.100)
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;KHALED&apos;, ip: &apos;192.168.1.48&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.100, chrome: {chromedriverVersion: 75.0.3770.140 (2d9f97485c7b..., userDataDir: C:\Users\KHALED~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:10483}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7429620dd1005957cf9100068610464f" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (604, 597)
+  (Session info: chrome=75.0.3770.100)
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;KHALED&apos;, ip: &apos;192.168.1.48&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.100, chrome: {chromedriverVersion: 75.0.3770.140 (2d9f97485c7b..., userDataDir: C:\Users\KHALED~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:10483}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7429620dd1005957cf9100068610464f
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (604, 597)
+  (Session info: chrome=75.0.3770.100)
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;KHALED&apos;, ip: &apos;192.168.1.48&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.100, chrome: {chromedriverVersion: 75.0.3770.140 (2d9f97485c7b..., userDataDir: C:\Users\KHALED~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:10483}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7429620dd1005957cf9100068610464f
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy21.click(Unknown Source)
+	at pages.ExistingUserPage.Subscribe(ExistingUserPage.java:16)
+	at steps.sampletesting.user_clicks_on_Subscribe_link_in_Existing_User_section(sampletesting.java:59)
+	at ✽.And User clicks on Subscribe link in Existing User section(AR_SampleTestingStepDefs.feature:11)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (604, 597)
+  (Session info: chrome=75.0.3770.100)
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;KHALED&apos;, ip: &apos;192.168.1.48&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.100, chrome: {chromedriverVersion: 75.0.3770.140 (2d9f97485c7b..., userDataDir: C:\Users\KHALED~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:10483}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7429620dd1005957cf9100068610464f
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy21.click(Unknown Source)
+	at pages.ExistingUserPage.Subscribe(ExistingUserPage.java:16)
+	at steps.sampletesting.user_clicks_on_Subscribe_link_in_Existing_User_section(sampletesting.java:59)
+	at ✽.And User clicks on Subscribe link in Existing User section(AR_SampleTestingStepDefs.feature:11)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@57fa26b7
+#Author: khaledmostafakm2021@gmail.com
+Feature: Verify sample tests for home and login screen for Jawwytv Web Application with Arabic Interface
+
+  Background:                                               &amp;#27;[90m# AR_SampleTestingStepDefs.feature:4&amp;#27;[0m
+    &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mJawwytv site opens successfully&amp;#27;[0m                   &amp;#27;[90m# sampletesting.jawwytv_site_opens_successfully()&amp;#27;[0m
+    &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mUser clicks on seven days free subscribe now button&amp;#27;[0m &amp;#27;[90m# sampletesting.user_clicks_on_seven_days_free_subscribe_now_button()&amp;#27;[0m
+
+  @toptest
+  Scenario: Validate user navigates back to subscribe now page         &amp;#27;[90m# AR_SampleTestingStepDefs.feature:9&amp;#27;[0m
+    &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mUser clicks on Click here link in create your account section&amp;#27;[0m &amp;#27;[90m# sampletesting.user_clicks_on_Click_here_link_in_create_your_account_section()&amp;#27;[0m
+    &amp;#27;[31mAnd &amp;#27;[0m&amp;#27;[31mUser clicks on Subscribe link in Existing User section&amp;#27;[0m         &amp;#27;[90m# sampletesting.user_clicks_on_Subscribe_link_in_Existing_User_section()&amp;#27;[0m
+      &amp;#27;[31morg.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (604, 597)
+        (Session info: chrome=75.0.3770.100)
+      Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+      System info: host: &apos;KHALED&apos;, ip: &apos;192.168.1.48&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_211&apos;
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.100, chrome: {chromedriverVersion: 75.0.3770.140 (2d9f97485c7b..., userDataDir: C:\Users\KHALED~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:10483}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+      Session ID: 7429620dd1005957cf9100068610464f
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+      	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+      	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+      	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.lang.reflect.Method.invoke(Method.java:498)
+      	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+      	at com.sun.proxy.$Proxy21.click(Unknown Source)
+      	at pages.ExistingUserPage.Subscribe(ExistingUserPage.java:16)
+      	at steps.sampletesting.user_clicks_on_Subscribe_link_in_Existing_User_section(sampletesting.java:59)
+      	at ?.And User clicks on Subscribe link in Existing User section(AR_SampleTestingStepDefs.feature:11)
+      &amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mUser should navigate to Create your account section&amp;#27;[0m           &amp;#27;[90m# sampletesting.user_should_navigate_to_Create_your_account_section()&amp;#27;[0m
+
+  Background:                                               &amp;#27;[90m# AR_SampleTestingStepDefs.feature:4&amp;#27;[0m
+    &amp;#27;[31mGiven &amp;#27;[0m&amp;#27;[31mJawwytv site opens successfully&amp;#27;[0m                   &amp;#27;[90m# sampletesting.jawwytv_site_opens_successfully()&amp;#27;[0m
+      &amp;#27;[31mjunit.framework.AssertionFailedError
+      	at junit.framework.Assert.fail(Assert.java:48)
+      	at junit.framework.Assert.assertTrue(Assert.java:20)
+      	at junit.framework.Assert.assertTrue(Assert.java:27)
+      	at steps.sampletesting.jawwytv_site_opens_successfully(sampletesting.java:30)
+      	at ?.Given Jawwytv site opens successfully(AR_SampleTestingStepDefs.feature:5)
+      &amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mUser clicks on seven days free subscribe now button&amp;#27;[0m &amp;#27;[90m# sampletesting.user_clicks_on_seven_days_free_subscribe_now_button()&amp;#27;[0m
+
+  @toptest
+  Scenario: Validate terms and conditions page                                   &amp;#27;[90m# AR_SampleTestingStepDefs.feature:15&amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mUser clicks on Terms and Conditions link in create your account section&amp;#27;[0m &amp;#27;[90m# sampletesting.user_clicks_on_Terms_and_Conditions_link_in_create_your_account_section()&amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mUser should see that Terms &amp; Conditions section is displayed&amp;#27;[0m            &amp;#27;[90m# sampletesting.user_should_see_that_Terms_Conditions_section_is_displayed()&amp;#27;[0m
+    &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33mUser enters &quot;&lt;username&gt;&quot;,&quot;&lt;password&gt;&quot;&amp;#27;[0m
+    &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mUser clicks on continue button&amp;#27;[0m
+
+  Background:                                               &amp;#27;[90m# AR_SampleTestingStepDefs.feature:4&amp;#27;[0m
+    &amp;#27;[31mGiven &amp;#27;[0m&amp;#27;[31mJawwytv site opens successfully&amp;#27;[0m                   &amp;#27;[90m# sampletesting.jawwytv_site_opens_successfully()&amp;#27;[0m
+      &amp;#27;[31mjunit.framework.AssertionFailedError
+      	at junit.framework.Assert.fail(Assert.java:48)
+      	at junit.framework.Assert.assertTrue(Assert.java:20)
+      	at junit.framework.Assert.assertTrue(Assert.java:27)
+      	at steps.sampletesting.jawwytv_site_opens_successfully(sampletesting.java:30)
+      	at ?.Given Jawwytv site opens successfully(AR_SampleTestingStepDefs.feature:5)
+      &amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mUser clicks on seven days free subscribe now button&amp;#27;[0m &amp;#27;[90m# sampletesting.user_clicks_on_seven_days_free_subscribe_now_button()&amp;#27;[0m
+
+  @bottomtest
+  Scenario: Validate back button on payment screen on entering username and password &amp;#27;[90m# AR_SampleTestingStepDefs.feature:22&amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mUser should see back button displayed on payment screen&amp;#27;[0m                     &amp;#27;[90m# sampletesting.user_should_see_back_button_displayed_on_payment_screen()&amp;#27;[0m
+
+  Background:                                               &amp;#27;[90m# AR_SampleTestingStepDefs.feature:4&amp;#27;[0m
+    &amp;#27;[31mGiven &amp;#27;[0m&amp;#27;[31mJawwytv site opens successfully&amp;#27;[0m                   &amp;#27;[90m# sampletesting.jawwytv_site_opens_successfully()&amp;#27;[0m
+      &amp;#27;[31mjunit.framework.AssertionFailedError
+      	at junit.framework.Assert.fail(Assert.java:48)
+      	at junit.framework.Assert.assertTrue(Assert.java:20)
+      	at junit.framework.Assert.assertTrue(Assert.java:27)
+      	at steps.sampletesting.jawwytv_site_opens_successfully(sampletesting.java:30)
+      	at ?.Given Jawwytv site opens successfully(AR_SampleTestingStepDefs.feature:5)
+      &amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mUser clicks on seven days free subscribe now button&amp;#27;[0m &amp;#27;[90m# sampletesting.user_clicks_on_seven_days_free_subscribe_now_button()&amp;#27;[0m
+
+  @bottomtest
+  Scenario: Validate that one single payment method is available for Lebanon country &amp;#27;[90m# AR_SampleTestingStepDefs.feature:26&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mUser should selects Lebanon from country dropdown menu&amp;#27;[0m                       &amp;#27;[90m# sampletesting.user_should_selects_Lebanon_from_country_dropdown_menu()&amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mUser should see that only credit card payment method is displayed&amp;#27;[0m           &amp;#27;[90m# sampletesting.user_should_see_that_only_credit_card_payment_method_is_displayed()&amp;#27;[0m
+
+  Background:                                               &amp;#27;[90m# AR_SampleTestingStepDefs.feature:4&amp;#27;[0m
+    &amp;#27;[31mGiven &amp;#27;[0m&amp;#27;[31mJawwytv site opens successfully&amp;#27;[0m                   &amp;#27;[90m# sampletesting.jawwytv_site_opens_successfully()&amp;#27;[0m
+      &amp;#27;[31mjunit.framework.AssertionFailedError
+      	at junit.framework.Assert.fail(Assert.java:48)
+      	at junit.framework.Assert.assertTrue(Assert.java:20)
+      	at junit.framework.Assert.assertTrue(Assert.java:27)
+      	at steps.sampletesting.jawwytv_site_opens_successfully(sampletesting.java:30)
+      	at ?.Given Jawwytv site opens successfully(AR_SampleTestingStepDefs.feature:5)
+      &amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mUser clicks on seven days free subscribe now button&amp;#27;[0m &amp;#27;[90m# sampletesting.user_clicks_on_seven_days_free_subscribe_now_button()&amp;#27;[0m
+
+  @bottomtest
+  Scenario: Validate that two payment methods are available for Bahrain country &amp;#27;[90m# AR_SampleTestingStepDefs.feature:31&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mUser should selects Bahrain from country dropdown menu&amp;#27;[0m                  &amp;#27;[90m# sampletesting.user_should_selects_Bahrain_from_country_dropdown_menu()&amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mUser should see that two payment methods are displayed&amp;#27;[0m                 &amp;#27;[90m# sampletesting.user_should_see_that_two_payment_methods_are_displayed()&amp;#27;[0m
+</system-out>
+    <system-err>Starting ChromeDriver 75.0.3770.140 (2d9f97485c7b07dc18a74666574f19176731995c-refs/branch-heads/3770@{#1155}) on port 10708
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+يول 16, 2019 3:23:12 ص org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="runner.TestRunner" name="feature" time="0.086">
+    <failure message="junit.framework.AssertionFailedError" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: junit.framework.AssertionFailedError
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:48)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at steps.sampletesting.jawwytv_site_opens_successfully(sampletesting.java:30)
+	at ✽.Given Jawwytv site opens successfully(EN_SampleTestingStepDefs.feature:5)
+Caused by: junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:48)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at steps.sampletesting.jawwytv_site_opens_successfully(sampletesting.java:30)
+	at ✽.Given Jawwytv site opens successfully(EN_SampleTestingStepDefs.feature:5)
+</failure>
+    <system-out>Failed!
+Taking Screenshot....
+#Author: khaledmostafakm2021@gmail.com
+Feature: Verify sample tests for home and login screen for Jawwytv Web Application with English Interface
+
+  Background:                                               &amp;#27;[90m# EN_SampleTestingStepDefs.feature:4&amp;#27;[0m
+    &amp;#27;[31mGiven &amp;#27;[0m&amp;#27;[31mJawwytv site opens successfully&amp;#27;[0m                   &amp;#27;[90m# sampletesting.jawwytv_site_opens_successfully()&amp;#27;[0m
+      &amp;#27;[31mjunit.framework.AssertionFailedError
+      	at junit.framework.Assert.fail(Assert.java:48)
+      	at junit.framework.Assert.assertTrue(Assert.java:20)
+      	at junit.framework.Assert.assertTrue(Assert.java:27)
+      	at steps.sampletesting.jawwytv_site_opens_successfully(sampletesting.java:30)
+      	at ?.Given Jawwytv site opens successfully(EN_SampleTestingStepDefs.feature:5)
+      &amp;#27;[0m
+    &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mUser changes language in welcome screen&amp;#27;[0m            &amp;#27;[90m# sampletesting.user_changes_language_in_welcome_screen()&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mUser clicks on seven days free subscribe now button&amp;#27;[0m &amp;#27;[90m# sampletesting.user_clicks_on_seven_days_free_subscribe_now_button()&amp;#27;[0m
+
+  @toptest
+  Scenario: Validate user navigates back to subscribe now page         &amp;#27;[90m# EN_SampleTestingStepDefs.feature:10&amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mUser clicks on Click here link in create your account section&amp;#27;[0m &amp;#27;[90m# sampletesting.user_clicks_on_Click_here_link_in_create_your_account_section()&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mUser clicks on Subscribe link in Existing User section&amp;#27;[0m         &amp;#27;[90m# sampletesting.user_clicks_on_Subscribe_link_in_Existing_User_section()&amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mUser should navigate to Create your account section&amp;#27;[0m           &amp;#27;[90m# sampletesting.user_should_navigate_to_Create_your_account_section()&amp;#27;[0m
+
+  Background:                                               &amp;#27;[90m# EN_SampleTestingStepDefs.feature:4&amp;#27;[0m
+    &amp;#27;[31mGiven &amp;#27;[0m&amp;#27;[31mJawwytv site opens successfully&amp;#27;[0m                   &amp;#27;[90m# sampletesting.jawwytv_site_opens_successfully()&amp;#27;[0m
+      &amp;#27;[31mjunit.framework.AssertionFailedError
+      	at junit.framework.Assert.fail(Assert.java:48)
+      	at junit.framework.Assert.assertTrue(Assert.java:20)
+      	at junit.framework.Assert.assertTrue(Assert.java:27)
+      	at steps.sampletesting.jawwytv_site_opens_successfully(sampletesting.java:30)
+      	at ?.Given Jawwytv site opens successfully(EN_SampleTestingStepDefs.feature:5)
+      &amp;#27;[0m
+    &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mUser changes language in welcome screen&amp;#27;[0m            &amp;#27;[90m# sampletesting.user_changes_language_in_welcome_screen()&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mUser clicks on seven days free subscribe now button&amp;#27;[0m &amp;#27;[90m# sampletesting.user_clicks_on_seven_days_free_subscribe_now_button()&amp;#27;[0m
+
+  @toptest
+  Scenario: Validate terms and conditions page                                   &amp;#27;[90m# EN_SampleTestingStepDefs.feature:16&amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mUser clicks on Terms and Conditions link in create your account section&amp;#27;[0m &amp;#27;[90m# sampletesting.user_clicks_on_Terms_and_Conditions_link_in_create_your_account_section()&amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mUser should see that Terms &amp; Conditions section is displayed&amp;#27;[0m            &amp;#27;[90m# sampletesting.user_should_see_that_Terms_Conditions_section_is_displayed()&amp;#27;[0m
+    &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33mUser enters &quot;&lt;username&gt;&quot;,&quot;&lt;password&gt;&quot;&amp;#27;[0m
+    &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mUser clicks on continue button&amp;#27;[0m
+
+  Background:                                               &amp;#27;[90m# EN_SampleTestingStepDefs.feature:4&amp;#27;[0m
+    &amp;#27;[31mGiven &amp;#27;[0m&amp;#27;[31mJawwytv site opens successfully&amp;#27;[0m                   &amp;#27;[90m# sampletesting.jawwytv_site_opens_successfully()&amp;#27;[0m
+      &amp;#27;[31mjunit.framework.AssertionFailedError
+      	at junit.framework.Assert.fail(Assert.java:48)
+      	at junit.framework.Assert.assertTrue(Assert.java:20)
+      	at junit.framework.Assert.assertTrue(Assert.java:27)
+      	at steps.sampletesting.jawwytv_site_opens_successfully(sampletesting.java:30)
+      	at ?.Given Jawwytv site opens successfully(EN_SampleTestingStepDefs.feature:5)
+      &amp;#27;[0m
+    &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mUser changes language in welcome screen&amp;#27;[0m            &amp;#27;[90m# sampletesting.user_changes_language_in_welcome_screen()&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mUser clicks on seven days free subscribe now button&amp;#27;[0m &amp;#27;[90m# sampletesting.user_clicks_on_seven_days_free_subscribe_now_button()&amp;#27;[0m
+
+  @bottomtest
+  Scenario: Validate back button on payment screen on entering username and password &amp;#27;[90m# EN_SampleTestingStepDefs.feature:23&amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mUser should see back button displayed on payment screen&amp;#27;[0m                     &amp;#27;[90m# sampletesting.user_should_see_back_button_displayed_on_payment_screen()&amp;#27;[0m
+
+  Background:                                               &amp;#27;[90m# EN_SampleTestingStepDefs.feature:4&amp;#27;[0m
+    &amp;#27;[31mGiven &amp;#27;[0m&amp;#27;[31mJawwytv site opens successfully&amp;#27;[0m                   &amp;#27;[90m# sampletesting.jawwytv_site_opens_successfully()&amp;#27;[0m
+      &amp;#27;[31mjunit.framework.AssertionFailedError
+      	at junit.framework.Assert.fail(Assert.java:48)
+      	at junit.framework.Assert.assertTrue(Assert.java:20)
+      	at junit.framework.Assert.assertTrue(Assert.java:27)
+      	at steps.sampletesting.jawwytv_site_opens_successfully(sampletesting.java:30)
+      	at ?.Given Jawwytv site opens successfully(EN_SampleTestingStepDefs.feature:5)
+      &amp;#27;[0m
+    &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mUser changes language in welcome screen&amp;#27;[0m            &amp;#27;[90m# sampletesting.user_changes_language_in_welcome_screen()&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mUser clicks on seven days free subscribe now button&amp;#27;[0m &amp;#27;[90m# sampletesting.user_clicks_on_seven_days_free_subscribe_now_button()&amp;#27;[0m
+
+  @bottomtest
+  Scenario: Validate that one single payment method is available for Lebanon country &amp;#27;[90m# EN_SampleTestingStepDefs.feature:27&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mUser should selects Lebanon from country dropdown menu&amp;#27;[0m                       &amp;#27;[90m# sampletesting.user_should_selects_Lebanon_from_country_dropdown_menu()&amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mUser should see that only credit card payment method is displayed&amp;#27;[0m           &amp;#27;[90m# sampletesting.user_should_see_that_only_credit_card_payment_method_is_displayed()&amp;#27;[0m
+
+  Background:                                               &amp;#27;[90m# EN_SampleTestingStepDefs.feature:4&amp;#27;[0m
+    &amp;#27;[31mGiven &amp;#27;[0m&amp;#27;[31mJawwytv site opens successfully&amp;#27;[0m                   &amp;#27;[90m# sampletesting.jawwytv_site_opens_successfully()&amp;#27;[0m
+      &amp;#27;[31mjunit.framework.AssertionFailedError
+      	at junit.framework.Assert.fail(Assert.java:48)
+      	at junit.framework.Assert.assertTrue(Assert.java:20)
+      	at junit.framework.Assert.assertTrue(Assert.java:27)
+      	at steps.sampletesting.jawwytv_site_opens_successfully(sampletesting.java:30)
+      	at ?.Given Jawwytv site opens successfully(EN_SampleTestingStepDefs.feature:5)
+      &amp;#27;[0m
+    &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mUser changes language in welcome screen&amp;#27;[0m            &amp;#27;[90m# sampletesting.user_changes_language_in_welcome_screen()&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mUser clicks on seven days free subscribe now button&amp;#27;[0m &amp;#27;[90m# sampletesting.user_clicks_on_seven_days_free_subscribe_now_button()&amp;#27;[0m
+
+  @bottomtest
+  Scenario: Validate that two payment methods are available for Bahrain country &amp;#27;[90m# EN_SampleTestingStepDefs.feature:32&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mUser should selects Bahrain from country dropdown menu&amp;#27;[0m                  &amp;#27;[90m# sampletesting.user_should_selects_Bahrain_from_country_dropdown_menu()&amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mUser should see that two payment methods are displayed&amp;#27;[0m                 &amp;#27;[90m# sampletesting.user_should_see_that_two_payment_methods_are_displayed()&amp;#27;[0m
+</system-out>
+  </testcase>
+</testsuite>
